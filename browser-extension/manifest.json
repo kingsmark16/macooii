@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Read with Macooii",
+  "version": "0.4.0",
+  "description": "Read the Facebook tab you choose and review it locally in Macooii.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2dGRFjfHrLl+YO6kd19rUv2md55jFVRmV02jm80KvLYEYCkXCLL15DVeNCYHRjax5n2rkUdqmX1uM098mi4lStb/5tVnGoIKrGFr0ENDrTdg1dvHIGz9C4e/oNH0n/SHXVOcnLUR1Oe9cEb+E6GwMF023vTIYCMsp/uH5CGk3e6goNvk7kk0u+n/l64RQn4ruKG/hUq2B+6HPn3B/8Tt0cmXUNjycOY9HQ5UjeLaQujD91Tr1NWTMtgamwX5Mx9+ivEM2f9stRn/wox70BaMSIz4cfORpAcrnUxR86NyEH7CnQnz2N+XjrMKSTTC0mW3mBI2c7NZgqtF9T4ofOHs9QIDAQAB",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Read with Macooii"
+  }
+}
